@@ -4,7 +4,7 @@ import { BigNumber, Contract } from "ethers"
 import { ethers } from "hardhat"
 import { Fallback, Fallback__factory } from "../typechain"
 
-describe("Fallback",()=> {
+xdescribe("Fallback",()=> {
     let FallbackFactory:Fallback__factory
     let fallback:Fallback
     let accounts:SignerWithAddress[]
