@@ -4,7 +4,7 @@ import { BigNumber } from "ethers"
 import { ethers } from "hardhat"
 import { CoinFlip, CoinFlip__factory } from "../typechain"
 
-describe("CoinFlip",async()=>{
+xdescribe("CoinFlip",async()=>{
     let CoinFlipFactory:CoinFlip__factory
     let coinFlip:CoinFlip
     let owner:SignerWithAddress
